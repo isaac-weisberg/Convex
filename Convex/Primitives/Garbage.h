@@ -1,0 +1,3 @@
+@protocol Garbage
+
+@end
