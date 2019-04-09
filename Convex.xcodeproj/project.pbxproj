@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C6A3159225CD813006B00DF /* Convex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A3158225CD813006B00DF /* Convex.m */; };
 		5C6A315C225CD8C9006B00DF /* Sex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A315B225CD8C9006B00DF /* Sex.m */; };
+		5C6A3160225CDF94006B00DF /* Convex+map.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A315F225CDF94006B00DF /* Convex+map.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		5C6A3158225CD813006B00DF /* Convex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Convex.m; sourceTree = "<group>"; };
 		5C6A315A225CD8C9006B00DF /* Sex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sex.h; sourceTree = "<group>"; };
 		5C6A315B225CD8C9006B00DF /* Sex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sex.m; sourceTree = "<group>"; };
+		5C6A315E225CDF94006B00DF /* Convex+map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Convex+map.h"; sourceTree = "<group>"; };
+		5C6A315F225CDF94006B00DF /* Convex+map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Convex+map.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 		5C6A314B225CD6C5006B00DF /* Convex */ = {
 			isa = PBXGroup;
 			children = (
+				5C6A315D225CDF71006B00DF /* Operators */,
 				5C6A3155225CD71E006B00DF /* Primitives */,
 			);
 			path = Convex;
@@ -77,6 +81,15 @@
 				5C6A315B225CD8C9006B00DF /* Sex.m */,
 			);
 			path = Primitives;
+			sourceTree = "<group>";
+		};
+		5C6A315D225CDF71006B00DF /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A315E225CDF94006B00DF /* Convex+map.h */,
+				5C6A315F225CDF94006B00DF /* Convex+map.m */,
+			);
+			path = Operators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			files = (
 				5C6A315C225CD8C9006B00DF /* Sex.m in Sources */,
 				5C6A3159225CD813006B00DF /* Convex.m in Sources */,
+				5C6A3160225CDF94006B00DF /* Convex+map.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
