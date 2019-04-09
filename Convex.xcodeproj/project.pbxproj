@@ -33,6 +33,7 @@
 		5C6A315B225CD8C9006B00DF /* Sex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sex.m; sourceTree = "<group>"; };
 		5C6A315E225CDF94006B00DF /* Convex+map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Convex+map.h"; sourceTree = "<group>"; };
 		5C6A315F225CDF94006B00DF /* Convex+map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Convex+map.m"; sourceTree = "<group>"; };
+		5C6A3161225CE197006B00DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,7 @@
 		5C6A3140225CD6C5006B00DF = {
 			isa = PBXGroup;
 			children = (
+				5C6A3161225CE197006B00DF /* README.md */,
 				5C6A314B225CD6C5006B00DF /* Convex */,
 				5C6A314A225CD6C5006B00DF /* Products */,
 			);
